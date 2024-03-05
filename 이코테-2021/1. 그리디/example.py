@@ -1,1 +1,0 @@
-# git commit 예시
