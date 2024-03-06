@@ -1,20 +1,19 @@
 ### 1차 풀이
-# n = int(input()) # 5
-# scary = list(map(int, input().split())) # 2, 3, 1, 2, 2
+n = int(input()) # 5
+scary = list(map(int, input().split())) # 2, 3, 1, 2, 2
 
-# scary.sort() # 오름차순
-# # 1 2 2 2 3
+scary.sort() # 오름차순
 
-# idx = -1
-# result = 0
+idx = -1
+result = 0
 
-# while True:
-#     idx = idx - scary[idx] 
-#     result += 1
-#     if idx < -n:
-#         break
+while True:
+    idx = idx - scary[idx] 
+    result += 1
+    if idx < -n:
+        break
 
-# print(result)
+print(result)
 
 
 ### 교재 정답 풀이 1
