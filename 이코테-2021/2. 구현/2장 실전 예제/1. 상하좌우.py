@@ -26,6 +26,8 @@ print(start, end)
 
 #####################
 # 교재 풀이법
+#####################
+
 n = int(input()) # 5
 plans = input().split() # R R R U D D
 x, y = 1, 1
