@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/14467
+
 n = int(input())
 
 ob = [-1] * 10
