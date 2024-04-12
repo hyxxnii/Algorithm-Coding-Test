@@ -6,7 +6,7 @@ input = sys.stdin.readline
 sound = list(input().rstrip())
 ans = 0
 
-if sound[0] != "q" or sound[-1] != "k":
+if len(sound) % 5 or sound[0] != "q" or sound[-1] != "k":
     print("-1")
     exit()
 
