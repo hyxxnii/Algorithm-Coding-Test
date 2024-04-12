@@ -16,6 +16,7 @@ def check_bingo(ans):
                 board[x][y] = 0
 
                 # 가로
+                if sum(board[x]) == 0:
                     result += 1
                 # 세로
                 sum_h = 0
