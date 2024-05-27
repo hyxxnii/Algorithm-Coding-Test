@@ -46,3 +46,20 @@ while True:
         break
     
 print(result)
+
+
+# 교재 풀이 2: 간단한 코드 풀이
+N, M, K = map(int, input().split())
+nums = list(map(int, input().split()))
+
+nums.sort(reverse=True) # 내림차순 정렬
+# 6 5 4 4 2
+first = nums[0]
+second = nums[1]
+
+answer = 0
+count = int(M / (K+1)) * K + (M % (K+1))
+answer += count * first
+answer += (M - count) * second
+print(answer)
+
